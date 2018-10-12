@@ -13,6 +13,7 @@ What is the smallest positive number that is evenly
 limit = 21
 from time import time
 
+
 #normal lcm division
 '''
 a = time()
