@@ -12,6 +12,4 @@ for beg in range (0,len-13):
     if greatestProduct < product: 
         greatestProduct = product
 
-
-print(greatestProduct)
-    
+print(greatestProduct)    
