@@ -9,6 +9,7 @@ What is the largest prime factor of the number 600851475143 ?
 
 #solution in which number is constantly divided with its
 #factors to remove composite number factors.
+
 n = 600851475143
 factors = []
 i=2
@@ -19,4 +20,15 @@ while n > 1:
             n/=i
     i+=1
 print (factors[-1])
+
+n = 600851475143
+
+i=1
+while n > 1:
+    i+=1
+    if n % i == 0:
+        while n%i == 0:
+            n/=i
+print (i)
+
 
